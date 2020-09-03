@@ -10,6 +10,18 @@ public class Main implements Directions {
     public static void main(String[] args) {
         new JerooGUI();
         runJerooCode();
+        method main() {
+  Jeroo kim = new Jeroo(0, 0, EAST, 100);
+  kim.setupBowling();
+  kim.diagonal();
+  kim.hopPlant_Space4();
+  kim.anti_diagonal();
+  kim.hopPlant_Space3();
+  kim.turnRound();
+  kim.hopPlant_Space2();
+  kim.anti_diagonal();
+  kim.plant();
+}
 
     }
 
