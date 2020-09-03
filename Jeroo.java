@@ -6,7 +6,64 @@ public class Jeroo extends JerooBase {
 
     // Put your own methods here    
     
-    
+    method setupBowling() {
+  turn(LEFT);
+  turn(LEFT);
+  turn(LEFT);
+  turn(LEFT);
+}
+method hopPlant_Space4() {
+  plant();
+  hop();
+  hop();
+  plant();
+  hop();
+  hop();
+  plant();
+  hop();
+  hop();
+  plant();
+  hop();
+}
+method hopPlant_Space3() {
+  plant();
+  hop();
+  hop();
+  plant();
+  hop();
+  hop();
+  plant();
+  hop();
+}
+method hopPlant_Space2() {
+  plant();
+  hop();
+  hop();
+  plant();
+  hop();
+}
+method diagonal() {
+  hop();
+  turn(RIGHT);
+  hop();
+  turn(LEFT);
+}
+method anti_diagonal() {
+  turn(LEFT);
+  turn(LEFT);
+  hop();
+  turn(LEFT);
+  hop();
+  turn(RIGHT);
+  hop();
+}
+method turnRound() {
+  turn(LEFT);
+  hop();
+  turn(LEFT);
+  hop();
+  hop();
+}
 
 
     
